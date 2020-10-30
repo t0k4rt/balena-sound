@@ -1,4 +1,19 @@
 - commits:
+    - subject: Add --hostID arg to Snapcast client startup
+      hash: df712db3c221df49efd84e915a98577e457c4f04
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Mark Chester <mark@chesterfamily.org>
+        signed-off-by: Mark Chester <mark@chesterfamily.org>
+        Connects-to: '#332'
+        connects-to: '#332'
+      author: Mark Chester
+      nested: []
+  version: 3.2.1
+  date: 2020-10-30T19:30:54.484Z
+- commits:
     - subject: 'multi-room: add snapweb to snapcast server'
       hash: 7282d0e824a116877f4ffa1f34d02dc00b070219
       body: |
