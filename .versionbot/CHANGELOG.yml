@@ -1,4 +1,17 @@
 - commits:
+    - subject: 'meta: fix up some docs typos'
+      hash: b3fb3de1d646cd4245f69fe84409e9c507cc0d41
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Matthew McGinn <matthew@balena.io>
+        signed-off-by: Matthew McGinn <matthew@balena.io>
+      author: Matthew McGinn
+      nested: []
+  version: 3.2.1
+  date: 2020-11-13T17:43:50.291Z
+- commits:
     - subject: 'multi-room: add snapweb to snapcast server'
       hash: 7282d0e824a116877f4ffa1f34d02dc00b070219
       body: |
