@@ -3,7 +3,6 @@
 # Create balena-sound sinks
 load-module module-null-sink sink_name=balena-sound.input
 load-module module-null-sink sink_name=balena-sound.output
-load-module module-pipe-sink file=/var/cache/snapcast/snapfifo sink_name=snapcast format=s16le rate=44100
 
 # Route audio internally, loopback sinks depend on configuration. See start.sh for details:
 # balena-sound.input: For multiroom it's routed to snapcast sink, for standalone directly wired to balena-sound.output
