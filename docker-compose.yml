@@ -19,6 +19,8 @@ services:
     restart: on-failure
     environment:
       - SNAPSERVER=elsa.lan
+      - MODE=MULTI_ROOM_CLIENT
+
 
   # Plugins
   # bluetooth:
