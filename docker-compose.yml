@@ -9,6 +9,10 @@ services:
     privileged: true
     labels:
       io.balena.features.dbus: 1
+    environment:
+      - MODE=MULTI_ROOM_CLIENT
+
+      
 
   multiroom-client:
     build: ./core/multiroom/client
