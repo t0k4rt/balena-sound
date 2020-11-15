@@ -13,6 +13,8 @@ services:
   multiroom-client:
     build: ./core/multiroom/client
     restart: on-failure
+    environment:
+      - SNAPSERVER=elsa.lan
 
   # Plugins
   # bluetooth:
